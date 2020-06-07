@@ -1,3 +1,3 @@
 ---
-permalink: /summary.md
+permalink: /summary
 ---
