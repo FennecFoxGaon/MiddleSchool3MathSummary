@@ -1,1 +1,3 @@
-# MiddleSchool3MathSummary
+---
+permalink: /summary.md
+---
