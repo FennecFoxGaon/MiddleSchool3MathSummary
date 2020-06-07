@@ -21,7 +21,7 @@ a 의 음의 제곱근![=-\sqrt{a}](https://render.githubusercontent.com/render/
 
 - ![a](https://render.githubusercontent.com/render/math?math=a)의 제곱근은 ![a \rightarrow \sqrt{a}, -\sqrt{a}](https://render.githubusercontent.com/render/math?math=a%20%5Crightarrow%20%5Csqrt%7Ba%7D%2C%20-%5Csqrt%7Ba%7D)
   ![\\ \sqrt{a}, -\sqrt{a}](https://render.githubusercontent.com/render/math?math=%5C%5C%20%5Csqrt%7Ba%7D%2C%20-%5Csqrt%7Ba%7D)의 제곱은 각각![\sqrt{a}, -\sqrt{a} \rightarrow ({\sqrt{a}})^2=a,({-\sqrt{a}})^2=a](https://render.githubusercontent.com/render/math?math=%5Csqrt%7Ba%7D%2C%20-%5Csqrt%7Ba%7D%20%5Crightarrow%20(%7B%5Csqrt%7Ba%7D%7D)%5E2%3Da%2C(%7B-%5Csqrt%7Ba%7D%7D)%5E2%3Da)
-- ![\sqrt{a^2}=|a|=\left\{\begin{matrix}   a & (a \geq 0)\\    -a & (a < 0)   \end{matrix}\right.](https://render.githubusercontent.com/render/math?math=%5Csqrt%7Ba%5E2%7D%3D%7Ca%7C%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%20%20a%20%26%20(a%20%5Cgeq%200)%5C%5C%20%20%20%20-a%20%26%20(a%20%3C%200)%20%20%20%5Cend%7Bmatrix%7D%5Cright.) 
+- ![근호 풀기 성질](https://render.githubusercontent.com/render/math?math=%5Csqrt%7Ba%5E2%7D%3D%7Ca%7C%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%20%20a%20%26%20(a%20%5Cgeq%200)%5C%5C%20%20%20%20-a%20%26%20(a%20%3C%200)%20%20%20%5Cend%7Bmatrix%7D%5Cright.) 
 
 ### 대소 관계
 
