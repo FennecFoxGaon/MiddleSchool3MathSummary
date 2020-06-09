@@ -1,6 +1,6 @@
 # 수학 요점정리 [파일 다운로드](https://github.com/FennecFoxGaon/MiddleSchool3MathSummary/raw/master/attachment/%EC%88%98%ED%95%99%20%EC%9A%94%EC%A0%90%EC%A0%95%EB%A6%AC.pdf)
 
-## 제곱근
+## 실수와 그 계산
 
 ### 뜻과 표현
 
@@ -150,3 +150,74 @@ a 의 음의 제곱근![=-\sqrt{a}](https://render.githubusercontent.com/render/
 ![1 < \sqrt{2} < 2](https://render.githubusercontent.com/render/math?math=1%20%3C%20%5Csqrt%7B2%7D%20%3C%202)이므로, ![\sqrt{2}](https://render.githubusercontent.com/render/math?math=%5Csqrt%7B2%7D)의 정수부분은 1, 소수부분은 ![\sqrt{2}-1](https://render.githubusercontent.com/render/math?math=%5Csqrt%7B2%7D-1)이다.
 
 > (무리수) = (정수 부분) + (소수 부분), (소수 부분) = (무리수) - (정수 부분)
+
+---
+
+## 다항식의 곱셈과 인수분해
+
+## 인수분해의 뜻
+
+인수분해: 어떤 다항식을 두 개 이상의 다항식의 곱과 거듭제곱으로 나타내는 것
+
+인수: 인수분해를 했을 때의 각각의 다항식
+
+- 인수분해: (하나의 다항식) → (식의 곱), 전개의 반대 과정
+  (예: ![x^2 + 5x + 4 \rightarrow (x + 4)(x + 1)](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%205x%20%2B%204%20%5Crightarrow%20(x%20%2B%204)(x%20%2B%201)))
+- 전개: (식의 곱) → (하나의 다항식), 인수분해의 반대 과정
+  (예: ![(x + 4)(x + 1) \rightarrow x^2 + 5x + 4](https://render.githubusercontent.com/render/math?math=(x%20%2B%204)(x%20%2B%201)%20%5Crightarrow%20x%5E2%20%2B%205x%20%2B%204))
+
+## 인수
+
+인수를 모두 구하는 방법:
+
+1. 모든 식의 인수: ![1](https://render.githubusercontent.com/render/math?math=1)
+2. 인수분해가 된 상태에서 괄호로 묶인 것과 괄호 밖의 문자와 숫자
+3. 2의 것들을 서로 곱한것
+4. 3의 것들을 서로 곱한것
+...
+
+예: ![x^2 + 5x + 4 \rightarrow (x + 4)(x + 1)](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%205x%20%2B%204%20%5Crightarrow%20(x%20%2B%204)(x%20%2B%201)) 에서 인수를 구하는 방법:
+
+1. 모든 식의 인수: ![1](https://render.githubusercontent.com/render/math?math=1)
+2. 하나의 곱으로 이루어진 인수: ![(x + 4), (x + 1)](https://render.githubusercontent.com/render/math?math=(x%20%2B%204)%2C%20(x%20%2B%201))
+3. 두 개의 곱으로 이루어진 인수: ![(x + 4)(x + 1)](https://render.githubusercontent.com/render/math?math=(x%20%2B%204)(x%20%2B%201))
+
+총 4개.
+
+인수의 개수: 소인수분해와 비슷한 방법으로 구하기, 각 인수들의 (지수 + 1)들의 곱
+
+예: ![x^2 + 5x + 4 \rightarrow (x + 4)(x + 1)](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%205x%20%2B%204%20%5Crightarrow%20(x%20%2B%204)(x%20%2B%201)) 에서 인수의 개수를 구하는 방법:
+
+![(x + 1)](https://render.githubusercontent.com/render/math?math=(x%20%2B%201))의 지수: 1
+
+![(x + 4)](https://render.githubusercontent.com/render/math?math=(x%20%2B%204))의 지수: 1
+
+![(x + 1)(x + 4)](https://render.githubusercontent.com/render/math?math=(x%20%2B%201)(x%20%2B%204))의 인수의 개수: ![(1 + 1)(1 + 1) = 4](https://render.githubusercontent.com/render/math?math=(1%20%2B%201)(1%20%2B%201)%20%3D%204)개
+
+## 공통인수를 이용한 인수분해
+
+공통인수: 모든 항에 공통으로 들어있는 인수
+
+공통인수를 이용한 인수분해: 분배법칙을 이용하여 공통인수를 묶어내어 인수분해 하기.
+
+![ma + mb = m(a + b)](https://render.githubusercontent.com/render/math?math=ma%20%2B%20mb%20%3D%20m(a%20%2B%20b)) 
+
+## 인수분해 공식
+
+### 완전제곱식
+
+완전제곱식: 다항식의 제곱으로 된 식 또는 다항식의 제곱에 상수가 곱해진 식
+
+#### ![a^2 \pm 2ab + b^2](https://render.githubusercontent.com/render/math?math=a%5E2%20%5Cpm%202ab%20%2B%20b%5E2)의 인수분해
+
+- ![a^2 + 2ab + b^2 = (a + b)^2](https://render.githubusercontent.com/render/math?math=a%5E2%20%2B%202ab%20%2B%20b%5E2%20%3D%20(a%20%2B%20b)%5E2) 
+- ![a^2 - 2ab + b^2 = (a - b)^2](https://render.githubusercontent.com/render/math?math=a%5E2%20-%202ab%20%2B%20b%5E2%20%3D%20(a%20-%20b)%5E2) 
+
+### 합차공식
+
+![(a + b)(a - b) = a^2 - b^2](https://render.githubusercontent.com/render/math?math=(a%20%2B%20b)(a%20-%20b)%20%3D%20a%5E2%20-%20b%5E2) 
+
+### 이차항의 계수가 1
+
+![x^2 + (a + b)x + ab = (x + a)(x + b)](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%20(a%20%2B%20b)x%20%2B%20ab%20%3D%20(x%20%2B%20a)(x%20%2B%20b)) 
+
