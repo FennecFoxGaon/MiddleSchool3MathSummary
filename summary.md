@@ -1,5 +1,5 @@
 # 수학 요점정리
-[해당 요점정리는 인쇄가 가능한 파일의 형태로도 제공하고 있습니다. 여기서 다운로드 할 수 있습니다.](https://fennecfoxgaon.github.io/MiddleSchool3MathSummary/attachment/%EC%88%98%ED%95%99%20%EC%9A%94%EC%A0%90%EC%A0%95%EB%A6%AC.pdf)
+[해당 요점정리는 인쇄가 가능한 파일의 형태로도 제공하고 있습니다. 여기서 다운로드 할 수 있습니다.](https://raw.githubusercontent.com/FennecFoxGaon/MiddleSchool3MathSummary/master/attachment/%EC%88%98%ED%95%99%20%EC%9A%94%EC%A0%90%EC%A0%95%EB%A6%AC.pdf)
 
 [1학기 2회고사 범위로 이동하기](#다항식의 곱셈과 인수분해)
 
