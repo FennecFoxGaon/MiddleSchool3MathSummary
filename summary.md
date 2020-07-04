@@ -1,4 +1,7 @@
-# 수학 요점정리 [파일 다운로드](https://github.com/FennecFoxGaon/MiddleSchool3MathSummary/raw/master/attachment/%EC%88%98%ED%95%99%20%EC%9A%94%EC%A0%90%EC%A0%95%EB%A6%AC.pdf)
+# 수학 요점정리
+[해당 요점정리는 인쇄가 가능한 파일의 형태로도 제공하고 있습니다. 여기서 다운로드 할 수 있습니다.](https://fennecfoxgaon.github.io/MiddleSchool3MathSummary/attachment/%EC%88%98%ED%95%99%20%EC%9A%94%EC%A0%90%EC%A0%95%EB%A6%AC.pdf)
+
+[1학기 2회고사 범위로 이동하기](#다항식의 곱셈과 인수분해)
 
 ## 실수와 그 계산
 
@@ -44,7 +47,7 @@ a 의 음의 제곱근![=-\sqrt{a}](https://render.githubusercontent.com/render/
 
 ### 수 체계
 
-![중3 수 체계](https://github.com/FennecFoxGaon/MiddleSchool3MathSummary/raw/master/img/%EC%A4%913%20%EC%88%98%EC%B2%B4%EA%B3%84.png)
+![중3 수 체계](https://fennecfoxgaon.github.io/MiddleSchool3MathSummary/img/%EC%A4%913%20%EC%88%98%EC%B2%B4%EA%B3%84.png)
 
 > 유리수이면서 무리수인 수는 존재하지 않는다.
 
@@ -73,7 +76,7 @@ a 의 음의 제곱근![=-\sqrt{a}](https://render.githubusercontent.com/render/
 
 다음과 같이 직각삼각형에서 피타고라스의 정리를 이용하면 무리수를 수직선위에 표시할 수 있다.
 
-![수직선위에 루트2 표시](https://github.com/FennecFoxGaon/MiddleSchool3MathSummary/raw/master/img/%EB%A3%A8%ED%8A%B82%20%EA%B7%B8%EB%A6%AC%EA%B8%B0.png)
+![수직선위에 루트2 표시](https://fennecfoxgaon.github.io/MiddleSchool3MathSummary/img/%EB%A3%A8%ED%8A%B82%20%EA%B7%B8%EB%A6%AC%EA%B8%B0.png) 
 
 ![\overline{OB}^2 = \overline{OC}^2 + \overline{BC}^2](https://render.githubusercontent.com/render/math?math=%5Coverline%7BOB%7D%5E2%20%3D%20%5Coverline%7BOC%7D%5E2%20%2B%20%5Coverline%7BBC%7D%5E2) 
 
@@ -215,9 +218,189 @@ a 의 음의 제곱근![=-\sqrt{a}](https://render.githubusercontent.com/render/
 
 ### 합차공식
 
-![(a + b)(a - b) = a^2 - b^2](https://render.githubusercontent.com/render/math?math=(a%20%2B%20b)(a%20-%20b)%20%3D%20a%5E2%20-%20b%5E2) 
+![a^2 - b^2 = (a + b)(a - b)](https://render.githubusercontent.com/render/math?math=a^2%20-%20b^2%20=%20(a%20%2B%20b)(a%20-%20b)) 
+
+(제곱) - (제곱)의 꼴일 때 이용한다.
 
 ### 이차항의 계수가 1
 
-![x^2 + (a + b)x + ab = (x + a)(x + b)](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%20(a%20%2B%20b)x%20%2B%20ab%20%3D%20(x%20%2B%20a)(x%20%2B%20b)) 
+1. 먼저 이차식을 쓴다.
+2. 이차항의 아래에 문자를 세로로 두 번 쓴다. 곱해서 상수항이 나오는 두 수도 세로로 상수항 아래에 쓴다.
+3. 이차항과 상수항 아래의 숫자와 문자를 X자 방향으로 곱한다.
+4. 곱한 결과를 더해서 일차항이 나오는지 확인한다.
+5. 만약 곱해서 더한 결과가 일차항과 같다면 같은 줄에 있는 항들을 괄호로 묶는다.
+   곱해서 더한 결과가 일차항과 다르다면 2번으로 돌아가 곱해서 상수항이 나오는 다른 수를 적고 다시 반복한다.
+6. 괄호로 묶은 두 식을 정리해서 써주면 인수분해가 끝난다.
+
+![이차항의 계수가 1일때 인수분해](https://fennecfoxgaon.github.io/MiddleSchool3MathSummary/img/%EC%9D%B4%EC%B0%A8%ED%95%AD%EC%9D%98%20%EA%B3%84%EC%88%98%EA%B0%80%201%EC%9D%BC%EB%95%8C%20%EC%9D%B8%EC%88%98%EB%B6%84%ED%95%B4.png) 
+
+### 이차항의 계수가 1이 아닐 때
+
+1. 먼저 이차식을 쓴다.
+2. 이차항의 아래에 문자를 세로로 두 번 쓰는데, **곱해서 이차항의 계수가 나오는 두 수도 반드시 적어준다.** 곱해서 상수항이 나오는 두 수도 세로로 상수항 아래에 쓴다.
+3. 이차항과 상수항 아래의 숫자와 문자를 X자 방향으로 곱한다.
+4. 곱한 결과를 더해서 일차항이 나오는지 확인한다.
+5. 만약 곱해서 더한 결과가 일차항과 같다면 같은 줄에 있는 항들을 괄호로 묶는다.
+   곱해서 더한 결과가 일차항과 다르다면 2번으로 돌아가 곱해서 상수항이 나오는 두 수를 적고, **곱해서 이차항의 계수가 나오는 두 수도 적어** 다시 반복한다.
+6. 괄호로 묶은 두 식을 정리해서 써주면 인수분해가 끝난다.
+
+![이차항의 계수가 1이 아닐때 인수분해](https://fennecfoxgaon.github.io/MiddleSchool3MathSummary/img/%EC%9D%B4%EC%B0%A8%ED%95%AD%EC%9D%98%20%EA%B3%84%EC%88%98%EA%B0%80%201%EC%9D%B4%20%EC%95%84%EB%8B%90%EB%95%8C%20%EC%9D%B8%EC%88%98%EB%B6%84%ED%95%B4.png) 
+
+## 인수분해의 활용
+
+### 수의 계산
+
+위의 인수분해 공식을 사용해서 식을 간단히 정리한 후 계산한다.
+
+#### 예시1 - 공통인수를 활용한 인수분해
+
+![25 × 32 + 25 × 28](https://render.githubusercontent.com/render/math?math=25%20\times%2032%20%2B%2025%20\times%2028)의 값을 구하여라.
+
+##### 풀이
+
+![25 × 32 + 25 × 28](https://render.githubusercontent.com/render/math?math=25%20\times%2032%20%2B%2025%20\times%2028)의 경우 직접 값을 구해서 덧셈을 하면 구할 수는 있겠지만, 인수분해를 이용하면 더 쉽고 빠르게 값을 구할 수 있다.
+
+위 식에서는 두 항에 24라는 공통인수가 있으므로, 이 공통인수를 인수분해 해서 구하자.
+
+![25 × 32 + 25 × 28](https://render.githubusercontent.com/render/math?math=25%20\times%2032%20%2B%2025%20\times%2028) 
+![= 25(32 + 28)](https://render.githubusercontent.com/render/math?math==%2025(32%20%2B%2028)) 
+![= 25 × 60](https://render.githubusercontent.com/render/math?math==%2025%20\times%2060)
+![=1500](https://render.githubusercontent.com/render/math?math==1500)
+
+#### 예시2 - 합차공식를 활용한 인수분해
+
+![2020^2 - 2019^2](https://render.githubusercontent.com/render/math?math=2020^2%20-%202019^2)의 값을 구하여라.
+
+##### 풀이
+
+![2020^2 - 2019^2](https://render.githubusercontent.com/render/math?math=2020^2%20-%202019^2)의 경우에도 직접 값을 구해서 덧셈을 하면 구할 수는 있겠지만, 인수분해 공식을 이용하면 더 쉽고 빠르게 값을 구할 수 있다.
+
+위 식에서는 ![A^2 - B^2](https://render.githubusercontent.com/render/math?math=A^2 - B^2)의 꼴이므로 ![(A + B)(A - B)](https://render.githubusercontent.com/render/math?math=(A%20%2B%20B)(A%20-%20B))로 변형하여 구해보자.
+
+![2020^2 - 2019^2](https://render.githubusercontent.com/render/math?math=2020^2%20-%202019^2) 
+![= (2020 + 2019)(2020 - 2019)](https://render.githubusercontent.com/render/math?math==(2020%20%2B%202019)(2020%20-%202019))
+![= 4039 × 1](https://render.githubusercontent.com/render/math?math==%204039%20\times%201)
+![4039](https://render.githubusercontent.com/render/math?math==%204039)
+
+### 식의 값
+
+식을 간단하게 정리한 후 문자의 값을 대입한다.
+
+식을 간단하게 정리하기 어려우거나 문자의 값을 바로 대입해도 계산하기 까다로울 경우, 문자의 값을 적절히 변형하여 계산한다.
+
+#### 예시 1
+
+![x = 17](https://render.githubusercontent.com/render/math?math=x=17)일때 ![x^2 + 34x + 273](https://render.githubusercontent.com/render/math?math=x^2%20%2B%2034x%20%2B%20273)의 값을 구하여라.
+
+##### 풀이
+
+x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분해 하면 더 쉽게 식의 값을 구할 수 있다.
+
+![x^2 + 34x + 273](https://render.githubusercontent.com/render/math?math=x^2%20%2B%2034x%20%2B%20273) 
+![= (x + 21)(x + 13)](https://render.githubusercontent.com/render/math?math==%20(x%20%2B%2021)(x%20%2B%2013)) 
+
+이제, ![= (x + 21)(x + 13)](https://render.githubusercontent.com/render/math?math==%20(x%20%2B%2021)(x%20%2B%2013)) 에 ![x = 17](https://render.githubusercontent.com/render/math?math=x=17)을 대입해보자.
+
+![(17 + 21)(17 + 13)](https://render.githubusercontent.com/render/math?math=(17 %2B 21)(17 %2B 13)) 
+![= 38 × 30](https://render.githubusercontent.com/render/math?math==%2038%20\times%2030) 
+![= 1140](https://render.githubusercontent.com/render/math?math==%201140)
+
+#### 예시 2
+
+![x = 5 + sqrt(7)](https://render.githubusercontent.com/render/math?math=x%20=%205%20%2B%20\sqrt{7})일때, ![x^2 - 10x + 30](https://render.githubusercontent.com/render/math?math=x^2%20-%2010x%20%2B%2030)의 값을 구하여라.
+
+##### 풀이
+
+우선 ![x^2 - 10x + 30](https://render.githubusercontent.com/render/math?math=x^2%20-%2010x%20%2B%2030) 이 식은 인수분해가 안된다. 또한 x의 값을 바로 대입하는것 또한 까다로우므로 이럴 때는 x의 값을 적절히 변형하여 구해야 한다.
+
+![x = 5 + sqrt(7)](https://render.githubusercontent.com/render/math?math=x%20=%205%20%2B%20\sqrt{7}) 이므로, ![x - 5 = sqrt(7)](https://render.githubusercontent.com/render/math?math=x%20-%205%20=%20\sqrt{7})이 성립한다.
+양변을 제곱하면
+![x^2 - 10x + 25 = 7](https://render.githubusercontent.com/render/math?math=x^2%20-%2010x%20%2B%2025%20=%207), 양변에 5를 더하면
+![x^2 - 10x + 30 = 12](https://render.githubusercontent.com/render/math?math=x^2%20-%2010x%20%2B%2030%20=%2012)
+
+## 이차방정식의 뜻과 이차방정식의 근
+
+### 이차방정식의 뜻
+
+뜻: 최고차항의 차수가 2인 **방정식**
+
+이차방정식은 일반적으로 아래와 같은 모양이며, 아래와 같이 나타낼 수 있어야 한다.
+
+![ax^2 + bx + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%20bx%20%2B%20c%20=%200) (단, ![a, b, c](https://render.githubusercontent.com/render/math?math=a,%20b,%20c)는 상수, ![a != 0](https://render.githubusercontent.com/render/math?math=a%20\neq%200))
+
+위의 형태를 이차방정식의 **일반형**이라고 한다.
+
+### 이차방정식의 근
+
+![ax^2 + bx + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%20bx%20%2B%20c%20=%200)이 참이 되도록 하는 x의 값
+
+## 이차방정식 풀이와 활용
+
+### 인수분해를 활용한 이차방정식의 풀이
+
+![AB = 0](https://render.githubusercontent.com/render/math?math=AB%20=%200)성질(?)을 이용한다.
+
+![AB = 0](https://render.githubusercontent.com/render/math?math=AB%20=%200)이 성립하려면 ![A = 0](https://render.githubusercontent.com/render/math?math=A%20=%200)이어도 되고, ![B = 0](https://render.githubusercontent.com/render/math?math=B%20=%200)이어도 된다. 아니면 ![A = 0, B = 0](https://render.githubusercontent.com/render/math?math=A%20=%200,%20B%20=%200)처럼 둘다 0이어도 된다.
+
+이것을 ![A = 0](https://render.githubusercontent.com/render/math?math=A%20=%200) **또는** ![B = 0](https://render.githubusercontent.com/render/math?math=B%20=%200)이라고 한다.
+이차방정식을 일반형의 형태로 만들고, 인수분해 하면 ![AB = 0](https://render.githubusercontent.com/render/math?math=AB%20=%200)의 꼴로 바뀌는데, ![A = 0](https://render.githubusercontent.com/render/math?math=A%20=%200)일 때의 미지수의 값, ![B = 0](https://render.githubusercontent.com/render/math?math=B%20=%200)일 때의 미지수의 값이 이차방정식의 근이 된다.
+
+#### 예시
+
+![x^2 + x - 12](https://render.githubusercontent.com/render/math?math=x^2%20%2B%20%20%20x%20-%2012%20=%200)의 근을 구하여라.
+
+##### 풀이
+
+![x^2 + x - 12](https://render.githubusercontent.com/render/math?math=x^2 %2B%20%20 x - 12)는 ![(x - 3)(x + 4)](https://render.githubusercontent.com/render/math?math=(x%20-%203)(x%20%2B%204))로 인수분해가 가능하다.
+
+위 성질에 따라 ![x - 3 = 0](https://render.githubusercontent.com/render/math?math=x%20-%203%20=%200)또는 ![x + 4 = 0](https://render.githubusercontent.com/render/math?math=x%20%2B%204%20=%200)이 되어야 한다.
+
+따라서, ![x = 3](https://render.githubusercontent.com/render/math?math=x = 3)또는 ![x = -4](https://render.githubusercontent.com/render/math?math=x%20=%20-4)가 되어야 하고, 이차방정식의 근은 ![x = 3](https://render.githubusercontent.com/render/math?math=x = 3)또는 ![x = -4](https://render.githubusercontent.com/render/math?math=x%20=%20-4) 이다.
+
+### 이차방정식의 중근의 뜻
+
+위 [인수분해를 활용한 이차방정식의 풀이](#인수분해를 활용한 이차방정식의 풀이)에서 A와 B가 같아 ![A^2 = 0](https://render.githubusercontent.com/render/math?math=A^2%20=%200)과 같은 완전제곱식의 형태가 되면 ![A = 0](https://render.githubusercontent.com/render/math?math=A%20=%200)이 중복되어, 중복된 근을 갖게 되는데, 이 근을 **이차방정식의 중근**이라고 한다.
+
+### 이차방정식이 중근을 가질 조건
+
+#### 이차항의 계수가 1일 때
+
+![(x + a)^2](https://render.githubusercontent.com/render/math?math=(x%20%2B%20a)^2)를 전개하면 ![x^2 + 2ax + a^2](https://render.githubusercontent.com/render/math?math=x^2%20%2B%202ax%20%2B%20a^2)이다. 여기서 일차항과 상수항의 관계를 찾을 수 있는데, ![(2a/2)^2 = a](https://render.githubusercontent.com/render/math?math={(\frac{2a}{2})}^2%20=%20a)가 성립함을 알 수 있다.
+
+즉, 이차항의 계수가 1인 완전제곱식에서는 **일차항의 계수를 2로 나눈 값을 제곱했을때 상수항과 같다**는 성질이 있다.
+
+
+##### 예시 1
+![x^2 + ax + 36 = 0](https://render.githubusercontent.com/render/math?math=x^2 %2B ax %2B 36 = 0)이 중근을 가질 때 a의 값과 그 근은? (단, ![a < 0](https://render.githubusercontent.com/render/math?math=a < 0))
+
+###### 풀이
+
+일차항의 계수의 절반이 상수항과 같아야 하므로, 아래와 같이 풀 수 있다.
+
+![(a/2)^2 = 36](https://render.githubusercontent.com/render/math?math={(\frac{a}{2})}^2%20=%2036) 
+![a/2 = ±6](https://render.githubusercontent.com/render/math?math=\frac{a}{2}%20=%20\pm%206) 
+![a = ±12](https://render.githubusercontent.com/render/math?math=a%20=%20\pm%2012) 
+![a = 12](https://render.githubusercontent.com/render/math?math=\therefore%20a%20=%2012(\because%20a%20%3E%200))
+
+#### 이차항의 계수가 1일 때
+
+양변을 이차항의 계수로 나눈 후 위 방법을 이용한다.
+
+##### 예시 1
+
+![3x^2 - bx + 27 = 0](https://render.githubusercontent.com/render/math?math=3x^2%20-%20bx%20%2B%2027%20=%200)이 중근을 가질 때 b의 값과 그 근은? (단, ![b > 0](https://render.githubusercontent.com/render/math?math=b > 0))
+
+###### 풀이
+
+먼저 양변을 이차항의 계수인 3으로 나눠주자.
+
+![x^2 - (b/3)x + 9 = 0](https://render.githubusercontent.com/render/math?math=x^2%20-%20\frac{b}{3}x%20%2B%209%20=%200) 
+
+일차항의 계수의 절반이 상수항과 같아야 한다는 성질을 이용하자.
+
+![(b/3 × 1/2) = 9](https://render.githubusercontent.com/render/math?math={(\frac{b}{3}%20\times%20\frac{1}{2})}^2%20=%209) 
+![(b/6)^2 = 9](https://render.githubusercontent.com/render/math?math={(\frac{b}{6})}^2%20=%209) 
+![b/6 = ±3](https://render.githubusercontent.com/render/math?math=\frac{b}{6}%20=%20\pm%203) 
+![b = ±18](https://render.githubusercontent.com/render/math?math=b%20=%20\pm%2018)
+![b = 18](https://render.githubusercontent.com/render/math?math=\therefore%20b%20=%2018%20(\because%20b%20%3E%200)) 
 
