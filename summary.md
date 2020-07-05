@@ -489,7 +489,7 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
 일차항의 계수가 짝수일 때 쓸 수 있는 공식이다. 계산이 간단해진다.
 
-![ax^2 + 2b prime x + c = 0](https://render.githubusercontent.com/render/math?math=ax%5E2%2B2b%60x%2Bc%3D0)에서, ![x = (-b` ± sqrt(b`^2 - ac))/a](https://render.githubusercontent.com/render/math?math=x%2520%3D%2520%5Cfrac%7B%2520%7B-b%7D%2527%2520%5Cpm%2520%5Csqrt%7B%7B%7Bb%7D%2527%5E2-ac%7D%7D%7D%7Ba%7D)
+![ax^2 + 2b prime x + c = 0](https://render.githubusercontent.com/render/math?math=ax%5E2%2B2b%60x%2Bc%3D0)에서, ![x = (-b` ± sqrt(b`^2 - ac))/a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B%20%7B-b%7D%27%20%5Cpm%20%5Csqrt%7B%7B%7Bb%7D%27%5E2-ac%7D%7D%7D%7Ba%7D)
 
 ### 이차방정식의 근의 개수와 판별식
 
@@ -505,7 +505,7 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
  이차방정식의 근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D) 에서 
 
-- 판별식 ![D > 0](https://render.githubusercontent.com/render/math?math=D%20%3E%200)이면 이차방정식의 근은  ![x = (-b + sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a}) 또는 ![x = (-b - sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a}) 으로 서로 다른 두 근이 나온다.
+- 판별식 ![D > 0](https://render.githubusercontent.com/render/math?math=D%20%3E%200)이면 이차방정식의 근은  ![x = (-b + sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20%2B%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D) 또는 ![x = (-b - sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20-%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D) 으로 서로 다른 두 근이 나온다.
 - 판별식 ![D = 0](https://render.githubusercontent.com/render/math?math=D%20=%200)이면, 이차방정식의 근은 ![x = (-b2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b}{2a})으로 중근이 나온다.
 - 판별식 ![D < 0](https://render.githubusercontent.com/render/math?math=D%20%3C%200)이면,  근호 안의 수가 0보다 작으므로, 이차방정식의 근은 없다.
 
