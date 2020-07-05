@@ -491,7 +491,7 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
 일차항의 계수가 짝수일 때 쓸 수 있는 공식이다. 계산이 간단해진다.
 
-![ax^2 + 2b`x + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%202b`x%20%2B%20c%20=%200)에서, ![x = (-b` ± sqrt(b`^2 - ac))/a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{{-b}%27%20\pm%20\sqrt{{{b}%27^2-ac}}}{a})
+![ax^2 + 2b`x + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%202b`x%20%2B%20c%20=%200)에서, ![x = (-b` ± sqrt(b`^2 - ac))/a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{%20{-b}%27%20\pm%20\sqrt{{{b}%27^2-ac}}}{a})
 
 ### 이차방정식의 근의 개수와 판별식
 
