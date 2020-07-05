@@ -404,3 +404,256 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 ![b = ±18](https://render.githubusercontent.com/render/math?math=b%20=%20\pm%2018)
 ![b = 18](https://render.githubusercontent.com/render/math?math=\therefore%20b%20=%2018%20(\because%20b%20%3E%200)) 
 
+### 제곱근를 활용한 이차방정식의 풀이
+
+제곱근이 뭔지 기억이 안날 때는 [맨 위 `실수와 그 계산` 부분](#뜻과 표현)을 참고하자.
+
+> ![x^2 = a ⇔ x = sqrt(a)](https://render.githubusercontent.com/render/math?math=x^2%20=%20a%20\Leftrightarrow%20x%20=%20\pm%20\sqrt{a}) 일 때, x를 a의 제곱근이라고 한다.
+
+이차방정식에서 좌변을 완전제곱식으로, 우변을 상수항으로 만들어준 후 x의 값을 구한다.
+
+![a(x + p)^2 = q](https://render.githubusercontent.com/render/math?math=a(x%20%2B%20p)^2%20=%20q)
+
+#### 예시 1
+
+![x^2 - 9 = 0](https://render.githubusercontent.com/render/math?math=x^2 - 9 = 0)의 근을 제곱근을 활용하여 구하여라.
+
+##### 풀이
+
+![x^2 - 9 = 0](https://render.githubusercontent.com/render/math?math=x^2 - 9 = 0)에서 상수항을 이항하면 ![x^2 = 9](https://render.githubusercontent.com/render/math?math=x^2 = 9)
+
+![x = ±3](https://render.githubusercontent.com/render/math?math=\therefore%20x%20=%20\pm%20\sqrt{3}) 
+
+#### 예시 2
+
+![4(2x + 5)^2 = 144](https://render.githubusercontent.com/render/math?math=4(2x%2B%205)^2%20=%20144)의 근을 제곱근을 활용하여 구하여라.
+
+##### 풀이
+
+![4(2x + 5)^2 = 144](https://render.githubusercontent.com/render/math?math=4(2x%2B%205)^2%20=%20144)에서 양변을 4로 나눠주면 ![(2x + 5)^2 = 36](https://render.githubusercontent.com/render/math?math=(2x%20%2B%205)^2%20=%2036)
+![2x + 5 = ±6](https://render.githubusercontent.com/render/math?math=2x%20%2B%205%20=%20\pm 6) 
+![2x + 5](https://render.githubusercontent.com/render/math?math=2x %2B 5 = 6) 또는 ![2x + 5 = -6](https://render.githubusercontent.com/render/math?math=2x %2B 5 = -6)
+![x = 1/2](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{1}{2}) 또는 ![x = -11/2](https://render.githubusercontent.com/render/math?math=x%20=%20-\frac{11}{2})
+
+### 이차방정식 완전제곱식 만들기
+
+> 이 부분은 이차함수에서도 비슷하게 쓰이니 기억해두자.
+
+1. 상수항을 우변으로 이항한다.
+2. [이차방정식이 중근을 가질 조건](#이차방정식이 중근을 가질 조건)에서 확인한 완전제곱식의 성질을 이용해 새로운 상수항을 만들어준다.
+3. 2에서 만든 새로운 상수항을 양변에 더해준다.
+4. 좌변을 완전제곱식을 이용해 인수분해 한다.
+5. [제곱근를 활용한 이차방정식의 풀이](#제곱근를 활용한 이차방정식의 풀이)의 방법을 이용해 근을 구해준다.
+
+#### ![ax^2 + bx + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%20bx%20%2B%20c%20=%200)의 근을 완전제곱식을 활용해서 구하기: 이차방정식의 근의 공식
+
+근의 공식: 이차방정식의 근을 바로 구하는 공식, [이차방정식을 완전제곱식으로 만드는 방법](#이차방정식 완전제곱식 만들기)으로 유도된다.
+
+##### 유도
+
+![ax^2 + bx + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%20bx%20%2B%20c%20=%200)
+
+양변을 ![x^2](https://render.githubusercontent.com/render/math?math=x^2)의 계수로 나눠준다.
+
+![x^2 + b/ax + c/a = 0](https://render.githubusercontent.com/render/math?math=x^2%20%2B%20\frac{b}{a}x%20%2B%20\frac{c}{a}%20=%200)
+
+상수항을 이항한다.
+
+![x^2 + b/ax = -c/a](https://render.githubusercontent.com/render/math?math=x^2%20%2B%20\frac{b}{a}x%20=%20-\frac{c}{a})
+
+양변에 [이차방정식이 중근을 가질 조건](#이차방정식이 중근을 가질 조건)에서 확인한 완전제곱식의 성질을 이용해 새로운 상수항을 만들어준다.
+
+![x^2 + b/ax + (b/2a)^2 = -c/a + (b/2a)^2](https://render.githubusercontent.com/render/math?math=x^2 %2B \frac{b}{a}x %2B {(\frac{b}{2a})}^2 = -\frac{c}{a} %2B {(\frac{b}{2a})}^2)
+
+좌변을 완전제곱식을 이용해 인수분해 한다.
+
+![(x + b/2a)^2 = -c/a + b^2/4a^2](https://render.githubusercontent.com/render/math?math=(x%20%2B%20\frac{b}{2a})^2%20=%20-\frac{c}{a}%20%2B%20\frac{b^2}{4a^2})
+
+우변을 통분해 계산해준다.
+
+![(x + b/2a)^2 = b^2 - 4ac/4a^2](https://render.githubusercontent.com/render/math?math=(x%20%2B%20\frac{b}{2a})^2%20=%20\frac{b^2-4ac}{4a^2})
+
+제곱근을 구한다.
+
+![x + b/2a = ±sqrt(b^2-4ac/4a^2)](https://render.githubusercontent.com/render/math?math=x %2B \frac{b}{2a} = \pm \sqrt{\frac{b^2-4ac}{4a^2}})
+
+우변의 분모를 근호 밖으로 빼내고, 상수항을 이항한다.
+
+![x = -b/2a ± sqrt(b^2-4ac)/2a](https://render.githubusercontent.com/render/math?math=x%20=%20-%20\frac{b}{2a}%20\pm%20\frac{\sqrt{{b^2-4ac}}}{2a})
+
+우변을 정리한다.
+
+![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a})
+
+ 
+
+##### 근의 공식: 짝수 공식
+
+일차항의 계수가 짝수일 때 쓸 수 있는 공식이다. 계산이 간단해진다.
+
+![ax^2 + 2b`x + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%202b`x%20%2B%20c%20=%200)에서, ![x = (-b` ± sqrt(b`^2 - ac))/a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{{-b}%27%20\pm%20\sqrt{{{b}%27^2-ac}}}{a})
+
+### 이차방정식의 근의 개수와 판별식
+
+#### 이차방정식의 판별식
+
+이차방정식의 판별식은 근의 공식에서 **근호 안에 있는 부분**을 말한다. 판별식은 영어로 Discriminant이기에, 보통 영문자 D로 쓴다.
+
+![D = b^2 - 4ac](https://render.githubusercontent.com/render/math?math=D%20=b^2-4ac)
+
+판별식은 주로 근의 개수를 판별할 때 이용된다.
+
+#### 이차방정식의 근의 개수
+
+ 이차방정식의 근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a}) 에서 
+
+- 판별식 ![D > 0](https://render.githubusercontent.com/render/math?math=D%20%3E%200)이면 이차방정식의 근은  ![x = (-b + sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a}) 또는 ![x = (-b - sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a}) 으로 서로 다른 두 근이 나온다.
+- 판별식 ![D = 0](https://render.githubusercontent.com/render/math?math=D%20=%200)이면, 이차방정식의 근은 ![x = (-b2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b}{2a})으로 중근이 나온다.
+- 판별식 ![D < 0](https://render.githubusercontent.com/render/math?math=D%20%3C%200)이면,  근호 안의 수가 0보다 작으므로, 이차방정식의 근은 없다.
+
+### 복잡한 이차방정식의 풀이
+
+**복잡한건 간단하게**
+
+#### 괄호가 있을 때
+
+괄호를 전개한 뒤 이차방정식의 일반형의 형태로 정리한 후 인수분해나 근의 공식을 이용한다.
+
+##### 예시
+
+![3(x - 5) = 2(x + 6)(x - 1)](https://render.githubusercontent.com/render/math?math=3(x%20-%205)%20=%202(x%20%2B%206)(x%20-%201))
+
+###### 풀이
+
+먼저 괄호를 전개하고 동류항 끼리 계산을 해준다.
+![3x - 15 = 2x^2 + 10x - 12](https://render.githubusercontent.com/render/math?math=3x%20-%2015%20=%202x^2%20%2B%2010x%20-%2012)
+
+이차방정식의 일반형으로 나타내준다.
+![2x^2 + 7x + 3](https://render.githubusercontent.com/render/math?math=2x^2%20%2B%207x%20%2B%203%20=%200)
+
+인수분해를 해주고 근을 구한다.
+![(x + 3)(2x + 1) = 0](https://render.githubusercontent.com/render/math?math=(x%20%2B%203)(2x%20%2B%201)%20=%200)
+
+![x = -3](https://render.githubusercontent.com/render/math?math=x%20=%20-3) 또는 ![x = -1/2](https://render.githubusercontent.com/render/math?math=x%20=%20-\frac{1}{2})
+
+#### 공통인 식이 있을 때
+
+공통인 식을 치환을 해주고 인수분해를 해준다.
+
+##### 예시
+
+![(x - 3)^2 - 4(x - 3) + 3 = 0](https://render.githubusercontent.com/render/math?math=(x - 3)^2 - 4(x - 3) %2B 3 = 0)
+
+###### 풀이
+
+먼저 공통인 부분 ![x - 3](https://render.githubusercontent.com/render/math?math=(x%20-%203))을 ![t](https://render.githubusercontent.com/render/math?math=t)로 치환한다.
+![t^2 - 4t + 3 = 0](https://render.githubusercontent.com/render/math?math=t^2%20-%204t%20%2B%203%20=%200)
+
+인수분해 후 t를 구한다.
+![(t - 1)(t - 3) = 0](https://render.githubusercontent.com/render/math?math=(t%20-%201)(t%20-%203)%20=%200)
+![t = 1](https://render.githubusercontent.com/render/math?math=t%20=%201) 또는 ![t = 3](https://render.githubusercontent.com/render/math?math=t%20=%203)
+
+위 t를 구한 식에 원래의 값을 다시 환원해주고, x값을 구한다.
+
+![x - 3 = 1](https://render.githubusercontent.com/render/math?math=x%20-%203%20=%201) 또는 ![x - 3 = 3](https://render.githubusercontent.com/render/math?math=x%20-%203%20=%203)
+![x = 4](https://render.githubusercontent.com/render/math?math=x = 4) 또는 ![x = 6](https://render.githubusercontent.com/render/math?math=x = 6)
+
+### 근과 계수와의 관계
+
+이차방정식의 두 근을 각각 ![alpha, beta](https://render.githubusercontent.com/render/math?math=\alpha,%20\beta)라고 하자.
+
+근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a})에 따라
+
+- ![alpha = -b + sqrt(b^2 - 4ac)/2a](https://render.githubusercontent.com/render/math?math=\alpha%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a})
+- ![beta = -b - sqrt(b^2 - 4ac)/2a](https://render.githubusercontent.com/render/math?math=\beta%20=%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a})
+
+라고 둘 수 있다.
+
+#### 두 근의 합
+
+![alpha + beta](https://render.githubusercontent.com/render/math?math=\alpha%20%2B%20\beta%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a}%20%2B%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a})
+
+![= -2b/2a](https://render.githubusercontent.com/render/math?math==%20\frac{-2b}{2a})
+
+![= -b/a](https://render.githubusercontent.com/render/math?math==%20\frac{-b}{a})
+
+#### 두 근의 곱
+
+![alpha x beta](https://render.githubusercontent.com/render/math?math=\alpha%20\times%20\beta%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a}%20\times%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a})
+
+![= (-b)^2 - (b^2 - 4ac)/4a^2](https://render.githubusercontent.com/render/math?math==%20\frac{(-b)^2%20-%20(b^2%20-%204ac)}{4a^2})
+
+![= b^2 - b^2 + 4ac/4a^2](https://render.githubusercontent.com/render/math?math==%20\frac{b^2%20-%20b^2%20%2B%204ac}{4a^2})
+
+![=c/a](https://render.githubusercontent.com/render/math?math==%20\frac{c}{a})
+
+### 두 근이 주어졌을 때 이차방정식 구하기
+
+위 [인수분해를 활용한 이차방정식의 풀이](#인수분해를 활용한 이차방정식의 풀이) 를 거꾸로 이용하여 이차방정식을 구한다.
+
+이차항의 계수가 a이고, 두 근이 α, β인 이차방정식:
+
+![a(x - alpha)(x - beta)](https://render.githubusercontent.com/render/math?math=a(x%20-%20\alpha)(x%20-%20\beta)%20=%200)
+
+### 두 근의 합과 곱이 주어졌을 때 이차방정식 구하기
+
+위 [두 근이 주어졌을 때 이차방정식 구하기](#두 근이 주어졌을 때 이차방정식 구하기)의 식을 전개해보면
+
+![a(x^2 - (alpha + beta)x + alpha beta)](https://render.githubusercontent.com/render/math?math=a(x^2 - (\alpha %2B \beta)x %2B \alpha\beta%29=0)
+
+즉, 일차항의 계수에 -(두 근의 합)을, 상수항에 두 근의 곱을 집어넣는다.
+
+### 중근이 주어졌을 때 이차방정식 구하기
+
+중근이라는건 중복되는 근이 있다는 것으로, 위 [두 근이 주어졌을 때 이차방정식 구하기](#두 근이 주어졌을 때 이차방정식 구하기)에서 α, β에 같은 값을 집어넣는다.
+
+이차항의 계수가 a이고, 중근이 α인 이차방정식:
+
+![a(x - alpha)(x - beta)](https://render.githubusercontent.com/render/math?math=a(x%20-%20\alpha)^2%20=%200)
+
+### 한 근이 주어졌을 때 이차방정식 구하기
+
+만약 이차방정식의 모든 항의 계수가 유리수이고 한 근이 무리수이면 다른 한 근은 계산해보지 않아도 알 수 있다.
+
+근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a})을 보면 유리수 부분과 무리수 부분으로 나누어져 있는데 유리수 부분은 같고 무리수 부분은 부호만 다르다.
+
+이차방정식의 모든 항의 계수가 유리수이고 한 근이 ![m + nsqrt(k)](https://render.githubusercontent.com/render/math?math=m%20%2B%20n\sqrt{k})일 때
+
+다른 한 근은![m - nsqrt(k)](https://render.githubusercontent.com/render/math?math=m%20-%20n\sqrt{k})이다. 이러한 근을 켤래근이라고 한다.
+
+#### 근이 유리수일 때
+
+만약 근이 유리수라면 켤래근은 없다.
+
+##### 예시
+
+![(x - 3)(x - 5) = 0](https://render.githubusercontent.com/render/math?math=(x%20-%203)(x%20-%205)%20=%200)처럼, 근이 유리수라면 켤래근은 없다.
+
+### 유형별 이차방정식 풀이 방법
+
+1. 구하고자 하는것을 미지수 x로 둔다. (문제에서 큰 수를 구하라고 했는지, 작은 수를 구하라고 했는지와 같이 문제를 정확하게 해석해야 한다.)
+2. 미지수 x를 이용하여 방정식을 세운다.
+3. 위에 있는 방법을 이용해 방정식을 푼다.
+4. **문제의 조건**에 맞는 답을 구한다.
+
+#### 연속하는 수
+
+- 연속하는 두 자연수: ![x, x + 1](https://render.githubusercontent.com/render/math?math=x,%20x%20%2B%201)
+- 연속하는 세 자연수: ![x - 1, x, x + 1](https://render.githubusercontent.com/render/math?math=x%20-%201,%20x,%20x%20%2B%201)
+- 연속하는 세 홀수 및 짝수: ![x - 2, x, x + 2](https://render.githubusercontent.com/render/math?math=x - 2, x, x %2B 2)
+
+#### 도형의 넓이
+
+(추후 추가 예정)
+
+#### 땅에 일정한 폭으로 길을 만드는 문제
+
+길로 인해 나눠진 세 영역을 합쳐 새로운 직사각형을 만든 후 넓이를 구한다.
+
+#### 하늘로 쏘아 올린 물체의 높이
+
+t초 후에 높이를 알 수 있는 식이 주어지고 정해진 높이일때 시간(t)를 구하는 문제가 나온다.
+
+또한 물체를 쏘아 올리면 물체가 올라갈 때와 떨어질 때가 있다. 따라서 정해진 높이에 도달할 때는 물체가 올라갈 때와 떨어질 때 두 가지가 있음을 주의한다.
+
+만약 지면에 도달할 때를 묻는다면 쏘아 올릴때에도 지면에 있으니까 t의 값 중 하나는 무조건 0이 나온다. 이 점을 주의한다.
