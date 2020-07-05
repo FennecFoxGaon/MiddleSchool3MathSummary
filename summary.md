@@ -451,47 +451,45 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
 ##### 유도
 
-![ax^2 + bx + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%20bx%20%2B%20c%20=%200)
+![ax^2 + bx + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%20bx%20%2B%20c%20=%200) 
 
 양변을 ![x^2](https://render.githubusercontent.com/render/math?math=x^2)의 계수로 나눠준다.
 
-![x^2 + b/ax + c/a = 0](https://render.githubusercontent.com/render/math?math=x^2%20%2B%20\frac{b}{a}x%20%2B%20\frac{c}{a}%20=%200)
+![x^2 + b/ax + c/a = 0](https://render.githubusercontent.com/render/math?math=x^2%20%2B%20\frac{b}{a}x%20%2B%20\frac{c}{a}%20=%200) 
 
 상수항을 이항한다.
 
-![x^2 + b/ax = -c/a](https://render.githubusercontent.com/render/math?math=x^2%20%2B%20\frac{b}{a}x%20=%20-\frac{c}{a})
+![x^2 + b/ax = -c/a](https://render.githubusercontent.com/render/math?math=x^2%20%2B%20\frac{b}{a}x%20=%20-\frac{c}{a}) 
 
 양변에 [이차방정식이 중근을 가질 조건](#이차방정식이 중근을 가질 조건)에서 확인한 완전제곱식의 성질을 이용해 새로운 상수항을 만들어준다.
 
-![x^2 + b/ax + (b/2a)^2 = -c/a + (b/2a)^2](https://render.githubusercontent.com/render/math?math=x^2 %2B \frac{b}{a}x %2B {(\frac{b}{2a})}^2 = -\frac{c}{a} %2B {(\frac{b}{2a})}^2)
+![x^2 + b/ax + (b/2a)^2 = -c/a + (b/2a)^2](https://render.githubusercontent.com/render/math?math=x^2 %2B \frac{b}{a}x %2B {(\frac{b}{2a})}^2 = -\frac{c}{a} %2B {(\frac{b}{2a})}^2) 
 
 좌변을 완전제곱식을 이용해 인수분해 한다.
 
-![(x + b/2a)^2 = -c/a + b^2/4a^2](https://render.githubusercontent.com/render/math?math=(x%20%2B%20\frac{b}{2a})^2%20=%20-\frac{c}{a}%20%2B%20\frac{b^2}{4a^2})
+![(x + b/2a)^2 = -c/a + b^2/4a^2](https://render.githubusercontent.com/render/math?math=(x%20%2B%20\frac{b}{2a})^2%20=%20-\frac{c}{a}%20%2B%20\frac{b^2}{4a^2}) 
 
 우변을 통분해 계산해준다.
 
-![(x + b/2a)^2 = b^2 - 4ac/4a^2](https://render.githubusercontent.com/render/math?math=(x%20%2B%20\frac{b}{2a})^2%20=%20\frac{b^2-4ac}{4a^2})
+![(x + b/2a)^2 = b^2 - 4ac/4a^2](https://render.githubusercontent.com/render/math?math=(x%20%2B%20\frac{b}{2a})^2%20=%20\frac{b^2-4ac}{4a^2}) 
 
 제곱근을 구한다.
 
-![x + b/2a = ±sqrt(b^2-4ac/4a^2)](https://render.githubusercontent.com/render/math?math=x %2B \frac{b}{2a} = \pm \sqrt{\frac{b^2-4ac}{4a^2}})
+![x + b/2a = ±sqrt(b^2-4ac/4a^2)](https://render.githubusercontent.com/render/math?math=x %2B \frac{b}{2a} = \pm \sqrt{\frac{b^2-4ac}{4a^2}}) 
 
 우변의 분모를 근호 밖으로 빼내고, 상수항을 이항한다.
 
-![x = -b/2a ± sqrt(b^2-4ac)/2a](https://render.githubusercontent.com/render/math?math=x%20=%20-%20\frac{b}{2a}%20\pm%20\frac{\sqrt{{b^2-4ac}}}{2a})
+![x = -b/2a ± sqrt(b^2-4ac)/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20-%20%5Cfrac%7Bb%7D%7B2a%7D%20%5Cpm%20%5Cfrac%7B%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D) 
 
 우변을 정리한다.
 
-![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a})
-
- 
+![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D) 
 
 ##### 근의 공식: 짝수 공식
 
 일차항의 계수가 짝수일 때 쓸 수 있는 공식이다. 계산이 간단해진다.
 
-![ax^2 + 2b`x + c = 0](https://render.githubusercontent.com/render/math?math=ax^2%20%2B%202b`x%20%2B%20c%20=%200)에서, ![x = (-b` ± sqrt(b`^2 - ac))/a](https://render.githubusercontent.com/render/math?math=x%2520%3D%2520%5Cfrac%7B%2520%7B-b%7D%2527%2520%5Cpm%2520%5Csqrt%7B%7B%7Bb%7D%2527%5E2-ac%7D%7D%7D%7Ba%7D)
+![ax^2 + 2b prime x + c = 0](https://render.githubusercontent.com/render/math?math=ax%5E2%2B2b%60x%2Bc%3D0)에서, ![x = (-b` ± sqrt(b`^2 - ac))/a](https://render.githubusercontent.com/render/math?math=x%2520%3D%2520%5Cfrac%7B%2520%7B-b%7D%2527%2520%5Cpm%2520%5Csqrt%7B%7B%7Bb%7D%2527%5E2-ac%7D%7D%7D%7Ba%7D)
 
 ### 이차방정식의 근의 개수와 판별식
 
@@ -505,7 +503,7 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
 #### 이차방정식의 근의 개수
 
- 이차방정식의 근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a}) 에서 
+ 이차방정식의 근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D) 에서 
 
 - 판별식 ![D > 0](https://render.githubusercontent.com/render/math?math=D%20%3E%200)이면 이차방정식의 근은  ![x = (-b + sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a}) 또는 ![x = (-b - sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a}) 으로 서로 다른 두 근이 나온다.
 - 판별식 ![D = 0](https://render.githubusercontent.com/render/math?math=D%20=%200)이면, 이차방정식의 근은 ![x = (-b2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b}{2a})으로 중근이 나온다.
@@ -562,30 +560,30 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
 이차방정식의 두 근을 각각 ![alpha, beta](https://render.githubusercontent.com/render/math?math=\alpha,%20\beta)라고 하자.
 
-근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a})에 따라
+근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D)에 따라
 
-- ![alpha = -b + sqrt(b^2 - 4ac)/2a](https://render.githubusercontent.com/render/math?math=\alpha%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a})
-- ![beta = -b - sqrt(b^2 - 4ac)/2a](https://render.githubusercontent.com/render/math?math=\beta%20=%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a})
+- ![alpha = -b + sqrt(b^2 - 4ac)/2a](https://render.githubusercontent.com/render/math?math=\alpha = \frac{-b %2B \sqrt{b^2 - 4ac}}{2a}) 
+- ![beta = -b - sqrt(b^2 - 4ac)/2a](https://render.githubusercontent.com/render/math?math=\alpha = \frac{-b - \sqrt{b^2 - 4ac}}{2a}) 
 
 라고 둘 수 있다.
 
 #### 두 근의 합
 
-![alpha + beta](https://render.githubusercontent.com/render/math?math=\alpha%20%2B%20\beta%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a}%20%2B%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a})
+![alpha + beta](https://render.githubusercontent.com/render/math?math=%5Calpha%20%2B%20%5Cbeta%20%3D%20%5Cfrac%7B-b%20%2B%20%5Csqrt%7Bb%5E2%20-%204ac%7D%7D%7B2a%7D%20%2B%20%5Cfrac%7B-b%20-%20%5Csqrt%7Bb%5E2%20-%204ac%7D%7D%7B2a%7D) 
 
-![= -2b/2a](https://render.githubusercontent.com/render/math?math==%20\frac{-2b}{2a})
+![= -2b/2a](https://render.githubusercontent.com/render/math?math==%20\frac{-2b}{2a}) 
 
-![= -b/a](https://render.githubusercontent.com/render/math?math==%20\frac{-b}{a})
+![= -b/a](https://render.githubusercontent.com/render/math?math==%20\frac{-b}{a}) 
 
 #### 두 근의 곱
 
-![alpha x beta](https://render.githubusercontent.com/render/math?math=\alpha%20\times%20\beta%20=%20\frac{-b%20%2B%20\sqrt{{b^2-4ac}}}{2a}%20\times%20\frac{-b%20-%20\sqrt{{b^2-4ac}}}{2a})
+![alpha x beta](https://render.githubusercontent.com/render/math?math=%5Calpha%20%5Ctimes%20%5Cbeta%20%3D%20%5Cfrac%7B-b%20%2B%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D%20%5Ctimes%20%5Cfrac%7B-b%20-%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D) 
 
-![= (-b)^2 - (b^2 - 4ac)/4a^2](https://render.githubusercontent.com/render/math?math==%20\frac{(-b)^2%20-%20(b^2%20-%204ac)}{4a^2})
+![= (-b)^2 - (b^2 - 4ac)/4a^2](https://render.githubusercontent.com/render/math?math==%20\frac{(-b)^2%20-%20(b^2%20-%204ac)}{4a^2}) 
 
-![= b^2 - b^2 + 4ac/4a^2](https://render.githubusercontent.com/render/math?math==%20\frac{b^2%20-%20b^2%20%2B%204ac}{4a^2})
+![= b^2 - b^2 + 4ac/4a^2](https://render.githubusercontent.com/render/math?math==%20\frac{b^2%20-%20b^2%20%2B%204ac}{4a^2}) 
 
-![=c/a](https://render.githubusercontent.com/render/math?math==%20\frac{c}{a})
+![=c/a](https://render.githubusercontent.com/render/math?math==%20\frac{c}{a}) 
 
 ### 두 근이 주어졌을 때 이차방정식 구하기
 
@@ -599,7 +597,7 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
 위 [두 근이 주어졌을 때 이차방정식 구하기](#두 근이 주어졌을 때 이차방정식 구하기)의 식을 전개해보면
 
-![a(x^2 - (alpha + beta)x + alpha beta)](https://render.githubusercontent.com/render/math?math=a(x^2 - (\alpha %2B \beta)x %2B \alpha\beta%29=0)
+![a(x^2 - (alpha + beta)x + alpha beta)](https://render.githubusercontent.com/render/math?math=a%28x%5E2-%28%5Calpha%2B%5Cbeta%29x%2B%5Calpha%5Cbeta%29%3D0)
 
 즉, 일차항의 계수에 -(두 근의 합)을, 상수항에 두 근의 곱을 집어넣는다.
 
@@ -615,7 +613,7 @@ x에 17을 바로 대입해도 되겠지만, 주어진 식을 먼저 인수분�
 
 만약 이차방정식의 모든 항의 계수가 유리수이고 한 근이 무리수이면 다른 한 근은 계산해보지 않아도 알 수 있다.
 
-근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20=%20\frac{-b%20\pm%20\sqrt{{b^2-4ac}}}{2a})을 보면 유리수 부분과 무리수 부분으로 나누어져 있는데 유리수 부분은 같고 무리수 부분은 부호만 다르다.
+근의 공식 ![x = (-b ± sqrt(b^2 - 4ac))/2a](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7B%7Bb%5E2-4ac%7D%7D%7D%7B2a%7D)을 보면 유리수 부분과 무리수 부분으로 나누어져 있는데 유리수 부분은 같고 무리수 부분은 부호만 다르다.
 
 이차방정식의 모든 항의 계수가 유리수이고 한 근이 ![m + nsqrt(k)](https://render.githubusercontent.com/render/math?math=m%20%2B%20n\sqrt{k})일 때
 
